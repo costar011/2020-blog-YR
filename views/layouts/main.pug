@@ -3,28 +3,28 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title yerim BLOG
+        title YeRim's | BLOG
         link(rel="stylesheet", href="/styles/styles.css")
     body
         header.header
-            .header__col1
+          div.header__col1
 
-            .hedaer__col2
-                ul.header__col2__ul
-                    li.header__col2__ul__list
-                    a(href="/") HOME
-
-                    li.header__col2__ul__list.devMenu DEV
-                        .Box
-                            h2
-                                a(href="#") Javascript
-                            h2
-                                a(href="#") MongoDB
-                            h2
-                                a(href="#") Node.Js
-                            h2
-                                a(href="#") React
-                    li.header__col2__ul__list
+          div.header__col2
+            ul.header__col2__ul
+                li.header__col2__ul__list
+                a(href="/") HOME
+                li.header__col2__ul__list.devMenu DEV
+                    div.subBox
+                        h2 
+                           a(href="#") Javascript
+                        h2
+                            a(href="#") MongoDB
+                        h2
+                            a(href="#") Node.Js
+                        h2
+                            a(href="#") React
+                li.header__col2__ul__list
+                a(href="/contact") CONTACT
 
         block content
 
