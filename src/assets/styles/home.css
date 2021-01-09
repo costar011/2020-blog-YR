@@ -2,3 +2,30 @@
   width: 100%;
   height: calc(100vh - 50px);
 }
+
+.HOME .HOMEArea1 {
+  width: 100%;
+  height: 300px;
+
+  background-color: aqua;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.HOME .HOMEArea2 {
+  width: 100%;
+  height: 630px;
+
+  background-color: blue;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.HOME .HOMEArea2 .HOMEArea2__col1 {
+  width: 50%;
+  height: 100%;
+}
