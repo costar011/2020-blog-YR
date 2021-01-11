@@ -23,8 +23,13 @@
 
   display: flex;
   flex-direction: row;
+
   align-items: center;
   justify-content: space-around;
+}
+
+.HOME .HOMEArea1__quickMenu:hover {
+  background-color: darkgrey;
 }
 
 .HOME .HOMEArea2 {
