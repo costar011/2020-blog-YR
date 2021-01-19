@@ -9,15 +9,11 @@ const PORT = process.env.PORT;
 
 const app = express();
 
-app.set("view engine", "pug");
-
+app.set(`view engine`, `pug`);
 app.use(morgan(`dev`));
+app.use(express.static(path.join(__dirname, `/assets`)));
 
-app.use(express.static(path.join(__dirname, "/assets")));
-
-app.get("/", globalRouter);
-
-app.get("/contact", globalRouter);
+app.use("/", globalRouter);
 
 app.listen(PORT, () => {
   console.log(`✅ Server Start ${PORT}`);
