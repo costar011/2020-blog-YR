@@ -1,9 +1,9 @@
-.HOME {
+.home {
   width: 100%;
   height: calc(100vh - 50px);
 }
 
-.HOME .HOMEArea1 {
+.home .homeArea1 {
   width: 100%;
   height: 300px;
 
@@ -13,29 +13,65 @@
   justify-content: center;
 }
 
-.HOME .HOMEArea1__quickMenu {
-  width: 900px;
+.home .homeArea1 .homeArea1__quickMenu {
+  background-color: #0b0b0b;
+  width: 800px;
   height: 200px;
-
-  background-color: grey;
-
-  transition: 0.8s;
+  transition: 0.7s;
 
   display: flex;
   flex-direction: row;
-
   align-items: center;
   justify-content: space-around;
 }
 
-.HOME .HOMEArea1__quickMenu:hover {
-  background-color: darkgrey;
+.home .homeArea1 .homeArea1__quickMenu:hover {
+  background-color: #0b0b0b;
+}
+
+.home .homeArea2 {
+  width: 100%;
+  height: 640px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.home .homeArea2 .homeArea2__col1 {
+  width: 50%;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1483817101829-339b08e8d83f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1593&q=80");
+  background-size: cover;
+  background-position: center center;
+}
+
+.home .homeArea2 .homeArea2__col2 {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .homeArea2 .homeArea2__col2 h1 {
+  font-size: 22px;
+  margin: 0 0 30px;
+  font-weight: 600;
+  padding: 10px;
+  border-bottom: 2px solid #0b0b0b;
+}
+
+.home .homeArea2 .homeArea2__col2 h2 {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #0b0b0b;
 }
 
 .quickBox {
   color: #fff;
   cursor: pointer;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,39 +80,20 @@
   padding: 20px;
   border: 0.5px solid #fff;
 
-  transition: 0.6s;
+  transition: 0.6;
 }
 
-.quickBox:hover i {
-  color: skyblue;
+.quickBox:hover {
+  color: #f9ca24;
 }
 
 .quickBox i {
   font-size: 60px;
   margin-bottom: 10px;
-
   transition: 0.6s;
 }
 
 .quickBox p {
   font-size: 20px;
-  font-weight: 600;
-}
-
-.HOME .HOMEArea2 {
-  width: 100%;
-  height: 630px;
-
-  display: flex;
-  flex-direction: row;
-}
-
-.HOME .HOMEArea2 .HOMEArea2__col1 {
-  width: 50%;
-  height: 100%;
-}
-
-.HOME .HOMEArea2 .HOMEArea2__col2 {
-  width: 50%;
-  height: 100%;
+  font-weight: 600px;
 }

@@ -1,8 +1,8 @@
 .header {
   width: 100%;
   height: 50px;
-  background-color: #bdc3c7;
-  color: #3c40c6;
+  background-color: #8395a7;
+  color: #0b0b0b;
 
   display: flex;
   flex-direction: row;
@@ -14,15 +14,14 @@
 }
 
 .header .header__col2 {
-  width: 455px;
-  min-width: 455px; /* min-width -> 최소값 */
+  width: 450px;
+  min-width: 450px; /* min-width -> 최소값 */
   height: 100%;
 }
 
 .header .header__col2 .header__col2__ul {
   width: 100%;
   height: 100%;
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -33,24 +32,20 @@
   text-decoration: none;
   color: #0b0b0b;
   cursor: pointer;
-
-  padding: 8px;
+  padding: 5px;
   transition: 0.5s;
-  font-family: "Rancho", cursive;
+  font-family: "Kelly Slab", cursive;
 }
 
 .header a:hover {
-  color: #1b9cfc;
+  color: #0b0b0b;
 }
 
 .devMenu {
   height: 100%;
-
   cursor: pointer;
   transition: 0.5;
-  margin-top: 40px;
-
-  color: #0b0b0b;
+  margin-top: 35px;
 }
 
 .devMenu:hover .subBox {
@@ -60,10 +55,9 @@
 .subBox {
   display: none;
   position: absolute; /* position: absolute <- 따로 움직인다는 코드 */
-
   width: 200px;
   margin-top: 15px;
-  box-shadow: 4px 4px 4px #747d8c;
+  box-shadow: 4px 4px 3px #999999;
 }
 
 .subBox:hover {
@@ -73,19 +67,18 @@
 .subBox h2 {
   width: 100%;
   height: 25px;
-  padding: 6px;
+  padding: 5px;
 }
 
 .subBox h2 a {
   text-decoration: none;
-  color: #718093;
+  color: #747d8c;
   cursor: pointer;
-
-  padding: 4px;
+  padding: 5px;
   transition: 0.4s;
-  font-family: "Rancho", cursive;
+  font-family: "Kelly Slab", cursive;
 }
 
 header h2 a:hover {
-  color: #34e7e4;
+  color: #fff;
 }
